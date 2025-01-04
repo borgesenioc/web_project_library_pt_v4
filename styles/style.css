@@ -67,7 +67,7 @@
 .header__image {
   max-width: 636px;
   height: auto;
-  align-self: center;
+  margin: auto 0;
 }
 
 .header__footer {
