@@ -19,21 +19,26 @@
 }
 
 .nav {
-  /* Adicione as propriedades flex aqui */
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__logo {
+  height: 80px;
+  width: 58px;
 }
 
 .nav__links {
-  /* Redefina o estilo de listas padrão aqui */
+  display: flex;
   margin: 8px 0 0;
+  column-gap: 20px;
+  list-style: none;
 }
 
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold; /* O Roteiro mostra uma fonte regular, mas o checklist nao indica esta mudanca, entao estou deixando bold */
 }
 
 .header__content {
