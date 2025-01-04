@@ -33,6 +33,7 @@
   margin: 8px 0 0;
   column-gap: 20px;
   list-style: none;
+  padding: 0;
 }
 
 .nav__link {
@@ -43,12 +44,25 @@
 
 .header__content {
   /* Adicione as propriedades flex aqui */
+  display: flex;
+  justify-content: flext-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .header__title {
+  max-width: 635px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 128px 0 32px;
 }
 
 .header__description {
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
 }
 
 .header__image {
