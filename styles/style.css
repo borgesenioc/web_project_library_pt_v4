@@ -43,9 +43,8 @@
 }
 
 .header__content {
-  /* Adicione as propriedades flex aqui */
   display: flex;
-  justify-content: flext-start;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -66,6 +65,9 @@
 }
 
 .header__image {
+  max-width: 636px;
+  height: auto;
+  align-self: center;
 }
 
 .header__footer {
