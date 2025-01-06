@@ -112,8 +112,42 @@
   width: 360px;
   display: flex;
   background-color: #ffffff;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .card__footer {
+  margin-top: auto;
+}
+
+.staff__title {
+  color: #ffffff;
+  justify-self: center;
+  font-weight: normal;
+  font-size: 32px;
+  padding: 80px 0 40px;
+}
+
+.staff__subtitle {
+  color: #ffffff;
+  justify-self: center;
+}
+.card__content {
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card__title {
+}
+
+.card__text {
+}
+
+.card__footer {
+  color: #838383;
+  font-size: 14px;
   margin-top: auto;
 }
